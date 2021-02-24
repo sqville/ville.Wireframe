@@ -29,6 +29,8 @@
 <img src="ScreenCapture_01.PNG" alt="ville.Wireframe theme for Qooxdoo form controls">
 **Windows**
 <img src="ScreenCapture_02.PNG" alt="ville.Wireframe theme for Qooxdoo window controls">
+**Other Controls**
+<img src="ScreenCapture_04.PNG" alt="ville.Wireframe theme for Qooxdoo window controls">
 **Give boxes a hand drawn look**
 <img src="ScreenCapture_03.PNG" alt="ville.Wireframe theme for Qooxdoo controls - Hand drawn look">
 
