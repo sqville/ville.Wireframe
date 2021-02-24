@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sqville/ville.Wireframe">
-    <img src="ville_Wireframe.png" alt="Logo" width="277" height="138">
+    <img src="Ville_Wireframe_Logo.png" alt="Logo" width="277" height="138">
   </a>
 
   <h3 align="center"></h3>
@@ -19,11 +19,17 @@
 
 **Additional Benefits**
 * All the benefits of ville.Clean 
-* Uses web safe Comic Sans as the default font
-* Only four colors to deal with - black, white, gray and yellow (for enabling highlight feature for walkthroughs)
+* Uses web safe fonts as the default fonts (Comic Sans for MS and Apple Chancery for osx)
+* Only three colors to deal with - black, white and gray
+* Examples of how to make borders look hand drawn using only CSS3
 
-**Form Controls**
-<img src="ville_Wireframe_Form.PNG" alt="Screen shot example">
+## Screen Captures
+**From Controls**
+<img src="ScreenCapture_01.PNG" alt="ville.Wireframe theme for Qooxdoo form controls">
+**Windows**
+<img src="ScreenCapture_02.PNG" alt="ville.Wireframe theme for Qooxdoo window controls">
+**Give boxes a hand drawn look**
+<img src="ScreenCapture_03.PNG" alt="ville.Wireframe theme for Qooxdoo controls - Hand drawn look">
 
 
 <!-- GETTING STARTED -->
