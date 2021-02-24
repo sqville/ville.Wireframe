@@ -54,15 +54,26 @@ qx.Class.define("widgetbrowser.pages.Extras",
       freestyleCss : "handdrawnbuttonbox"
     });
 
+    var buttonboxdec2 = new qx.ui.decoration.Decorator().set({
+      width: [4,4,3,5],
+      color: "main",
+      backgroundColor : "background"
+    });
+
     var gb1 = new qx.ui.groupbox.GroupBox("Hand drawn GroupBox border").set({width: 400, height: 250});
     gb1.getChildControl("frame").set({decorator: groupboxframedec});
 
     var hbtnbox = new qx.ui.container.Composite(new qx.ui.layout.HBox(20));
     var btn1 = new qx.ui.form.Button("Cancel","ville/theme/wireframe/wireframe-image-sm.png").set({width: 180, decorator: buttonboxdec});
     var btn2 = new qx.ui.form.Button("Submit","ville/theme/wireframe/wireframe-image-sm.png").set({width: 180, decorator: buttonboxdec});
+    var btn3 = new qx.ui.form.Button("Alternative","ville/theme/wireframe/wireframe-image-sm.png").set({width: 180, decorator: buttonboxdec2});
     hbtnbox.add(new qx.ui.basic.Label("<b>Buttons:</b>").set({rich: true}));
     hbtnbox.add(btn1);
     hbtnbox.add(btn2);
+    hbtnbox.add(btn3);
+
+    //alternative way to add hand drawn look to a button rather than using ville.theme.wireframe.MFreestyleCss class
+    btn3.getContentElement().setStyle("border-radius", "4% 95% 6% 95%/95% 4% 92% 5%");
      
 
     vbox.add(lblaboutthis);
