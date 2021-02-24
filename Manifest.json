@@ -1,0 +1,55 @@
+{
+  "$schema": "https://qooxdoo.org/schema/Manifest-1-0-0.json",
+  "info": {
+    "name": "ville.Wireframe",
+    "summary": "a theme for Qooxdoo desktop applications",
+    "description": "A theme designed to help direct focus to layout and interactions first",
+    "homepage": "http://github.com/sqville/ville.Wireframe",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Chris Eskew",
+        "email": "chris.eskew@sqville.com"
+      }
+    ],
+    "version": "1.0.0"
+  },
+  "provides": {
+    "namespace": "ville.theme.Wireframe",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource",
+    "translation": "source/translation",
+    "application": {
+      "class": "widgetbrowser.Application",
+      "theme": "ville.theme.Wireframe",
+      "name": "widgetbrowser",
+      "title": "WidgetBrowser",
+      "include": [
+        "ville.theme.wireframe.MFrestyleCss",
+        "qx.theme.Simple",
+        "qx.theme.Classic",
+        "widgetbrowser.pages.Tree",
+        "widgetbrowser.pages.List",
+        "widgetbrowser.pages.Table",
+        "widgetbrowser.pages.Form",
+        "widgetbrowser.pages.ToolBar",
+        "widgetbrowser.pages.Window",
+        "widgetbrowser.pages.Tab",
+        "widgetbrowser.pages.Control",
+        "widgetbrowser.pages.Embed",
+        "widgetbrowser.pages.EmbedFrame",
+        "widgetbrowser.pages.Basic",
+        "widgetbrowser.pages.Misc",
+        "widgetbrowser.pages.Extras"
+      ],
+      "exclude": [
+        "qx.theme.Modern"
+      ]
+    }
+  },
+  "requires": {
+    "@qooxdoo/compiler": "^1.0.0",
+    "@qooxdoo/framework": "^6.0.0"
+  }
+}
