@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sqville/ville.Wireframe">
-    <img src="Ville_Wireframe_Logo.png" alt="Logo" width="277" height="138">
+    <img src="Ville_Wireframe_Logo.png" alt="Logo" width="409" height="121">
   </a>
 
   <h3 align="center"></h3>
