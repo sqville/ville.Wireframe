@@ -21,6 +21,7 @@
 * All the benefits of [ville.Clean](https://github.com/sqville/ville.Clean) 
 * Uses web safe fonts as the default fonts (Comic Sans for MS and Apple Chancery for osx)
 * Only three colors to deal with - black, white and gray
+* Use to build out contorl image repository for mockup/wireframing tools (i.e. Adobe, Figma, Sketch, etc.)
 * Examples of how to make borders look hand drawn using only CSS3
 
 ## Screen Captures
