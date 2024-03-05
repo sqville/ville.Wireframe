@@ -24,7 +24,7 @@ qx.Theme.define("ville.theme.wireframe.Font",
     {
       size : 14,
       family : qx.core.Environment.get("os.name") == "osx" ?
-        [ "Apple Chancery", "cursive" ] : [ "Comic Sans MS", "Comic Sans", "cursive"],
+        [ "Comic Sans MS", "cursive" ] : [ "Comic Sans MS", "Comic Sans", "cursive"],
       color : "black"
     },
     

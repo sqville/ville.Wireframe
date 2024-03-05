@@ -1,5 +1,5 @@
 {
-  "$schema": "https://qooxdoo.org/schema/Manifest-1-0-0.json",
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
   "info": {
     "name": "ville.Wireframe",
     "summary": "a theme for Qooxdoo desktop applications",
@@ -49,9 +49,8 @@
     }
   },
   "requires": {
-    "@qooxdoo/compiler": "^1.0.0",
-    "@qooxdoo/framework": "^6.0.0",
-    "qooxdoo/qxl.formdemo": "^1.0.2",
-    "qooxdoo/qxl.versionlabel": "^1.0.3"
+    "@qooxdoo/framework": "^7.6.2",
+    "qooxdoo/qxl.formdemo": "^2.0.0",
+    "qooxdoo/qxl.versionlabel": "^2.0.0"
   }
 }

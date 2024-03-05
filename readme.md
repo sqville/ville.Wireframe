@@ -1,39 +1,18 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/sqville/ville.Wireframe">
-    <img src="Ville_Wireframe_Logo.png" alt="Logo" width="409" height="121">
-  </a>
-
-  <h3 align="center"></h3>
-
-  <p align="center">
-    A theme for the Qooxdoo JavaScript Framework
-  </p>
-</p>
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# Ville.Wireframe
 
 **ville.Wireframe** is a [Qooxdoo](https://qooxdoo.org/) theme designed to help bring focus to layout and interaction BEFORE functionality and branding. Pump the brakes. Take it one step at a time. Iterate and gather more focused feedback before increasing your workload. 
 
-**Additional Benefits**
+**Benefits**
 * All the benefits of [ville.Clean](https://github.com/sqville/ville.Clean) 
-* Uses web safe fonts as the default fonts (Comic Sans for MS and Apple Chancery for osx)
+* Uses web safe fonts as the default fonts (Comic Sans MS for both pc and osx)
 * Only three colors to deal with - black, white and gray
 * Use it to build out a control image repository for mockup/wireframing tools (i.e. Adobe, Figma, Sketch, etc.)
 * Examples of how to make borders look hand drawn using only CSS3
 
-## Screen Captures
-**From Controls**
-<img src="ScreenCapture_01.PNG" alt="ville.Wireframe theme for Qooxdoo form controls">
-**Windows**
-<img src="ScreenCapture_02.PNG" alt="ville.Wireframe theme for Qooxdoo window controls">
-**Other Controls**
-<img src="ScreenCapture_04.PNG" alt="ville.Wireframe theme for Qooxdoo window controls">
-**Give boxes a hand drawn look**
-<img src="ScreenCapture_03.PNG" alt="ville.Wireframe theme for Qooxdoo controls - Hand drawn look">
-
+<!-- DEMOS -->
+## Demo
+Using Qooxdoos [WidgetBrowser](https://sqville.github.io/ville.Wireframe/published/)
 
 <!-- GETTING STARTED -->
 ## Using the Theme in your Application
@@ -54,24 +33,13 @@ now you just have to modify your compile.json to enable the theme:
 ],
 ```
 
-<!-- DEMOS -->
-## Demo
-Using Qooxdoos WidgetBrowser - TBD
-
-<!-- ROADMAP -->
-## Roadmap
-
-TBD
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-Chris Eskew - [@SQville](https://twitter.com/SQville) - email: chris.eskew@sqville.com
+Chris Eskew - email: sqville@gmail.com
